@@ -1,0 +1,416 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+a, address, img, dl, dt, ol, ul, li, form, label, 
+table, tr, th, td, article, aside, footer, header, 
+menu, nav, output, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{box-sizing: border-box;}
+
+/*-=========================================*/
+body {
+	background: #F2F2F2;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+a {
+	font-family: 'Prompt', sans-serif;
+	font-weight: 500;
+	position: relative;
+	color: #D4D6D4;
+}
+a:before {
+	content: '\25ba';
+	padding-right: 3px;
+	transition: .2s;
+}
+a:hover {color: #FFD723;}
+
+
+.container {
+	max-width: 1130px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+header {
+	background: url('../img/headerBack.jpg') no-repeat center / cover;
+}
+
+.header__top {
+	display: flex;
+	padding: 24px 0 121px;
+	justify-content: space-between;
+}
+.header__text {
+	width: 616px;
+	color: #fff;
+	padding-bottom: 211px;
+}
+.header__text h1 {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 74px;
+	padding: 22px 0 24px;
+}
+.header__text h3 {padding-bottom: 45px;}
+
+/* Баннер с брендами =========================== */
+.achievements {
+	position: relative;
+	width: 88%;
+	padding: 60px;
+	background: rgba(255, 255, 255, 1);
+	margin-top: -100px;
+	margin-left: auto;
+	box-shadow: -20px 40px 20px rgba(0,0,0,0.4);
+}
+
+.pics__net {
+	display: flex;
+	justify-content: space-between;
+}
+.pics__net img {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+	width: 156px;
+	height: 113px;
+}
+
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 46px;
+}
+p {color: #213842;}
+
+
+/* Текст после баннера ============== */
+.section__top__text {
+	margin: 120px 0 150px;
+	padding-bottom: 150px;
+	display: flex;
+	border-bottom: 1px solid #979797;
+}
+
+.services {
+	margin-left: 20px;
+	max-width: 495px;
+}
+.services h1 {
+	padding: 29px 0 35px;
+	color: #4D533C;
+}
+.kek {background: RGBA(238,230,0, 27%);}
+.services p {padding-bottom: 42px;}
+
+
+
+
+.review {
+	background: #fff;
+	max-width: 474px;
+	padding: 130px 40px 60px;
+    margin: -130px 0 0 auto;
+    box-shadow: -15px 30px 30px rgba(0,0,0,0.5);
+}
+.review h4 {
+	font-size: 24px;
+	line-height: 40px;
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+.kto {
+	display: flex;
+	align-items: center;
+}
+.kto_nahui {padding-left: 10px;}
+.kto h3 {
+	font-size: 22px;
+	font-weight: 700;
+	color: #4D533C;
+}
+
+
+/* FIRST SECTION =================================================== */
+
+.pre_text {
+	display: flex;
+	margin-bottom: 110px;
+	margin-left: 20px;
+}
+.pre_text h1 {max-width: 335px;}
+.pre_text p {
+	margin: 0 auto;
+	max-width: 480px;
+}
+
+
+.ex_section {
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.img_part {
+	max-width: 50%;
+	height: 550px;
+}
+.img_part img {
+	width: 100%;
+	height: 100%;
+}
+.footballer {
+	margin: -180px 0 0 320px;
+	position: absolute;
+	max-width: 454px;
+	max-height: 243px;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 20px 20px 20px rgba(0,0,0,0.4);
+}
+.footballer .comment {
+	padding: 30px 30px 0 30px;
+	font-style: italic;
+}
+
+
+.foot {
+	display: flex;
+	align-items: center;
+	padding: 30px;
+}
+.foot img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+}
+.in_text {
+	max-width: 421px;
+	margin-left: 30px;
+}
+.in_text p {padding: 32px 0 70px;}
+.in_text a {margin-left: 200px;}
+
+
+
+
+
+
+/* SECOND SECTION =================================================== */
+.second_sec {
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.d3_model {
+	max-width: 475px;
+	margin: 0 30px 0 auto;
+}
+
+.d3_model p {padding: 35px 0 90px 0;}
+.second_sec .footballer {
+	margin: -180px 0 0 -40px;
+	box-shadow: -20px 20px 20px rgba(0,0,0,0.4);
+
+}
+
+
+.third__section .ex_section{
+	padding-bottom: 180px;
+	border-bottom: 1px solid #979797;
+}
+
+
+
+
+.alot_text {margin-bottom: 192px;}
+.alot_text h1 {
+	margin-bottom: 87px;
+	color: #4D533C;
+}
+.alot_list {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.alot_item {
+	max-width: 250px;
+	padding: 0 30px;
+}
+.alot_item h2 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 34px;
+	color: #4D533C;
+}
+.alot_item p {
+	font-size: 14px;
+	display: block;
+	height: 110px;
+	margin: 20px 0 50px;
+}
+
+
+
+
+
+.section__bot {
+	position: absolute;
+	width: 88%;
+	padding: 50px;
+	background: #FAFAFA;
+	margin-top: -130px;
+	box-shadow: 20px 40px 40px rgba(0,0,0,0.4);
+
+}
+.section__bot h1 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 74px;
+	color: #4D533C;
+	margin-bottom: 50px;
+}
+
+
+
+footer {
+	background: url('../img/footer_bg.jpg');
+}
+footer p {
+	color: #B6C197;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 40px;
+}
+.footer_all {padding-top: 300px;}
+
+
+
+.info_top {
+	display: flex;
+	max-width: 452px;
+	align-items: center;
+}
+.tel {width: 50%;}
+.tel a {
+	color: #fff;
+	position: relative;
+	font-weight: 700;
+	line-height: 40px;
+	text-decoration: none;
+}
+.tel a:before {
+	content: '';
+	transition: .2s;
+}
+.tel a:hover {color: #FFD723;}
+.addr address {
+	color: #fff;
+	font-weight: 700;
+	line-height: 40px;
+}
+
+
+
+
+
+footer h5 {
+	font-weight: 600;
+	line-height: 38px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+.left {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+	padding-right: 50px;
+	border-right: 1px solid #5D6544;
+}
+.info_middle {
+	display: flex;
+	padding: 25px 0 25px;
+	border-top: 1px solid #5D6544;
+	margin-top: 25px;
+}
+
+
+.right {
+	max-width: 270px;
+	padding-left: 50px;
+	/*margin-left: auto;*/
+}
+.right .email {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	line-height: 38px;
+	text-decoration: none;
+}
+.right p {
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+.icons {
+	margin-top: 15px;
+}
+
+
+
+
+
+
+.info_bot {
+	border-top: 1px solid #5D6544;
+	padding: 60px 0 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* Съезжает Футболист на 1378px*/
+@media screen and (max-width: 1300px) {
+	.in_text a {
+
+	}
+}
+
+
+/* Съезжает секция с картинкой на 998px*/
+@media screen and (max-width: 998px) {
+	.container {
+		width: ;
+	}
+}
