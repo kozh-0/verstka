@@ -40,13 +40,15 @@ a {
 	font-weight: 500;
 	position: relative;
 	color: #D4D6D4;
+	transition: .2s;
 }
 a:before {
 	content: '\25ba';
 	padding-right: 3px;
-	transition: .2s;
 }
-a:hover {color: #FFD723;}
+a:hover {
+	color: #FFD723;
+}
 
 
 .container {
@@ -371,6 +373,10 @@ footer h5 {
 	line-height: 38px;
 	text-decoration: none;
 }
+.right .email:hover {
+	color: #FFD723;
+}
+
 .right p {
 	line-height: 28px;
 	margin-bottom: 20px;
